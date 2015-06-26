@@ -102,6 +102,7 @@ body {
 
 #footer {
     color: #505050!important;
+    opacity: 0.5;
 }
 
 #footer>a {
@@ -836,10 +837,6 @@ img[src$="images/48x48/aborted.png"],  img[src$="images/48x48/aborted.gif"],  im
 
 #breadcrumbs {
   border: none;
-}
-
-.page_generated {
-  color: rgba(255, 255, 255, 0.2);
 }
 
 .bottom-sticker {
