@@ -6,7 +6,7 @@ body {
   display: none !important;
 }
 #jenkins-name-icon {
-  display: none !important;
+  left: -10px;
 }
 #main-panel > ul:nth-child(8) > li > img {
     margin-right: 10px;
@@ -101,7 +101,6 @@ body {
 }
 
 #footer {
-    background: rgba(0,0,0,.04);
     color: #505050!important;
 }
 
@@ -255,8 +254,8 @@ td.inactive:hover {
     background: rgba(0,0,0,.05)!important;
     padding-left: 0!important;
     padding-right: 0!important;
-    height: 100%!important;
-    position: absolute!important;
+    position: absolute !important;
+    overflow: scroll;
 }
 
 #main-panel {
@@ -826,4 +825,19 @@ img[src$="images/48x48/aborted.png"],  img[src$="images/48x48/aborted.gif"],  im
 #main-panel>pre>a,body>pre>a {
     color: #bf616a!important;
     text-decoration: underline;
+}
+#header {
+  background: #326CA6;
+}
+
+#header a {
+  color: white !important
+}
+
+#breadcrumbs {
+  border: none;
+}
+
+.page_generated {
+  color: rgba(255, 255, 255, 0.2);
 }
