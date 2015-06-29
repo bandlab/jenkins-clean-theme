@@ -842,3 +842,12 @@ img[src$="images/48x48/aborted.png"],  img[src$="images/48x48/aborted.gif"],  im
 .bottom-sticker {
   padding-bottom: 30px
 }
+
+.build-row.multi-line .build-row-cell .left-bar {
+  top: 0;
+  bottom: -1px;
+}
+
+.build-row-cell .pane.build-name .build-icon {
+  z-index: 1;
+}
