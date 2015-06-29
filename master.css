@@ -839,7 +839,7 @@ img[src$="images/48x48/aborted.png"],  img[src$="images/48x48/aborted.gif"],  im
   border: none;
 }
 
-.bottom-sticker {
+#bottom-sticker, .bottom-sticker {
   padding-bottom: 30px
 }
 
