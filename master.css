@@ -854,3 +854,7 @@ img[src$="images/48x48/aborted.png"],  img[src$="images/48x48/aborted.gif"],  im
 .progress-bar td {
   height: 6px;
 }
+
+#main-panel-content {
+  padding-bottom: 50px
+}
