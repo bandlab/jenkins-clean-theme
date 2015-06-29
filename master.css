@@ -851,3 +851,6 @@ img[src$="images/48x48/aborted.png"],  img[src$="images/48x48/aborted.gif"],  im
 .build-row-cell .pane.build-name .build-icon {
   z-index: 1;
 }
+.progress-bar td {
+  height: 6px;
+}
