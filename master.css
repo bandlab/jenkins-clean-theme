@@ -103,6 +103,7 @@ body {
 #footer {
     color: #505050!important;
     opacity: 0.5;
+    background: none;
 }
 
 #footer>a {
@@ -110,7 +111,7 @@ body {
 }
 
 #footer-container {
-    position: fixed;
+    position: relative;
     bottom: 0;
     z-index: 9999;
 }
@@ -858,3 +859,20 @@ img[src$="images/48x48/aborted.png"],  img[src$="images/48x48/aborted.gif"],  im
 #main-panel-content {
   padding-bottom: 50px
 }
+
+form.parameters td:empty {
+  height: 1px;
+}
+
+form.parameters tr {
+  border: none !important;
+}
+
+.fixedGridLayout #side-panel {
+  width: 340px;
+}
+
+.fixedGridLayout #side-panel, .fixedGridLayout #main-panel {
+  position: relative
+}
+
