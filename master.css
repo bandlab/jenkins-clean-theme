@@ -855,11 +855,11 @@ img[src$="images/48x48/aborted.png"],  img[src$="images/48x48/aborted.gif"],  im
   padding-bottom: 50px
 }
 
-form.parameters td:empty {
+.parameters td:empty {
   height: 1px;
 }
 
-form.parameters tr {
+.parameters tr {
   border: none !important;
 }
 
@@ -871,3 +871,6 @@ form.parameters tr {
   position: relative
 }
 
+table.parameters .setting-description {
+  padding-bottom: 15px
+}
