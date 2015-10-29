@@ -110,7 +110,7 @@ body {
 }
 
 #footer-container {
-    position: fixed;
+    position: relative;
     bottom: 0;
     z-index: 9999;
 }
@@ -759,9 +759,9 @@ img[src*="progress-unknown.gif"], img[src*="progress-unknown-red.gif"] {
 
 #executors th.pane a.model-link {
     display: block;
-    max-width: 1px;
     overflow: hidden;
     text-overflow: ellipsis;
+    background: none !important;
 }
 
 img[src$="images/16x16/blue.png"],     img[src$="images/16x16/blue.gif"],     img[src$="images/16x16/blue_anime.gif"],
@@ -839,6 +839,42 @@ img[src$="images/48x48/aborted.png"],  img[src$="images/48x48/aborted.gif"],  im
   border: none;
 }
 
-.bottom-sticker {
-  padding-bottom: 30px
+.build-row.multi-line .build-row-cell .left-bar {
+  top: 0;
+  bottom: -1px;
+}
+
+.build-row-cell .pane.build-name .build-icon {
+  z-index: 1;
+}
+.progress-bar td {
+  height: 6px;
+}
+
+#main-panel-content {
+  padding-bottom: 50px
+}
+
+.parameters td:empty {
+  height: 1px;
+}
+
+.parameters tr {
+  border: none !important;
+}
+
+.fixedGridLayout #side-panel {
+  width: 340px;
+}
+
+.fixedGridLayout #side-panel, .fixedGridLayout #main-panel {
+  position: relative
+}
+
+table.parameters .setting-description {
+  padding-bottom: 15px
+}
+
+.stop img {
+  display: block !important;
 }
