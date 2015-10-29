@@ -345,6 +345,10 @@ th.pane,tr.build-row>th {
     text-indent: 3px;
 }
 
+th.pane {
+  background: none !important;
+}
+
 button {
     color: #505050!important;
     -webkit-border-radius: 5px!important;
